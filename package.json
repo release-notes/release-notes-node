@@ -21,5 +21,7 @@
   "contributors": [
     "Alrik Zachert <alrik@craftup.cc>"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "js-yaml": "^3.8.4"
+  }
 }
