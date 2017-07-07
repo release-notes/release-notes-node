@@ -1,8 +1,8 @@
 {
-  "name": "release-notes",
+  "name": "@release-notes/node",
   "description": "An easy to use, human readable and machine processable schema for release notes.",
   "version": "0.0.1",
-  "author": "Alrik Zachert <alrik@craftup.cc>",
+  "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
     "release notes",
     "release-notes",
@@ -19,7 +19,7 @@
     "url": "https://github.com/release-notes/release-notes-node"
   },
   "contributors": [
-    "Alrik Zachert <alrik@craftup.cc>"
+    "Alrik Zachert <alrik.zachert@gmail.com>"
   ],
   "dependencies": {
     "ajv": "^5.2.0",
