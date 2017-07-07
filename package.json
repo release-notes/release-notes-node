@@ -22,6 +22,7 @@
     "Alrik Zachert <alrik@craftup.cc>"
   ],
   "dependencies": {
-    "js-yaml": "^3.8.4"
+    "js-yaml": "^3.8.4",
+    "@release-notes/schema": "^0.1.0"
   }
 }
