@@ -1,0 +1,16 @@
+title: Release Notes of Release Notes Node
+description: >
+  Release-notes-node is the Node.js reference implementation of the release notes specification -
+  an easy to use, human readable and machine processable schema for release notes.
+
+releases:
+- version: 0.1.0
+  date: 2017-07-07T18:22:00Z
+  title: First Release
+  description: Read and validate release notes in draft v0.2.0
+  added:
+  - Add support for release note validation.
+  - Add support for loading release note files.
+  - Introduce data models for release notes and releases.
+  - Add MIT license.
+  - Introduce these release notes.
