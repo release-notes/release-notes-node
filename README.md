@@ -7,7 +7,38 @@
 **License** | MIT
 
 The goal of this repository is to provide a reference implementation
-of the [Release Notes Specification](/release-notes/release-notes-spec).
+of the [Release Notes Specification](https://github.com/release-notes/release-notes-spec).
+
+## Installation
+
+`$ npm i @release-notes/node`
+
+## Load A Release Notes File
+
+```js
+const ReleaseNotesLoader = require('@release-notes/node/lib/ReleaseNotesLoader');
+const loader = new ReleaseNotesLoader();
+
+loader.readReleaseNotesFile('./release-notes.yml', (err, releaseNotes) => {
+  if (err) {
+    if (err.isValidationError) {
+      return void console.error(
+        'Could not load release notes. Validation failed: ',
+        err.validationErrors
+      );
+    }
+
+    return void console.error(
+      'Could not load release-notes.yml',
+      err
+    );
+  }
+
+  console.info(
+    `Successfully loaded release notes ${releaseNotes.title}`
+  );
+});
+```
 
 ---
 
