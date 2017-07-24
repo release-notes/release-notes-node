@@ -1,11 +1,16 @@
 language: node_js
 node_js:
-  - "6"
-  - "7"
-  - "8"
-
+- '6'
+- '7'
+- '8'
 git:
   depth: 3
-
 script:
-  - npm run lint
+- npm run lint
+deploy:
+  provider: npm
+  email: az@kreatiefer.de
+  api_key:
+    secure: xhVJOb922PY5tRwhO12ybQzEbrPecpv1fELiaEak0VQZO5TFJbADYXSEaRQbg2k4rA0Z72tBCMBgcxhdnfocP+DvjK7tsCvaC8/jo2lOw/B8UodY9Lcm3P4ECmKR6avceMjRYwRyp/8Eh5Ilf8SYVo74YEpJYBQcr9OA1iTGTCGkYliprcwyHXwPzMKGDoHcFQOQfmyc9QRlEGiwA8DdKdBe4A1XuwQsG6atFw+JmTzLxu/tZtedjSDFHzh5bjXVImIDW+krcyIyDaZnxNcdgw5VVKF1UkyX37mijfgLNc3Yuu3vNI+5cySeT0leXoiBXrz/UBlUijy80n8q0XFA7oKdSkSjURW6nK8cSt6LJ6G6Zpm4Xo9NTkU3FC5TupJ6WOlY40ep63u1qFME/kiqr3+v48P2NCacGbPhc4DZb3jdyzm7DQp1nvZkv/kyA5ooJb/T5KvcGUqWXAkk1fmmlAKA4NJ7xB/SOwLhuQhIJ+pSLa6sy8HkJtr1drS3kiSDtuh62Vf8GfELJ9ZQls3Wp8/HN03+7kN3UZQB5XSpLwh/iKU0HmzIxbOF9x4s2T0JUZl2uZRHrraytZnhhlo6wTB8ZuFP3DJzUgUUQlJeE5/dtax/ZshAYlyoFLgpCtelDBDxk9j9rR05QcMM52VtK6UO/uP0M/cyyVMKHXtKsZE=
+  on:
+    tags: true
