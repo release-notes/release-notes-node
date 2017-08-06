@@ -4,10 +4,13 @@ description: >
   an easy to use, human readable and machine processable schema for release notes.
 
 releases:
-- version: Next
+- version: 0.2.0
+  date: 2017-08-01T09:21:00Z
   added:
   - Introduce ReleaseNotesWriter for writing release notes to a file. (#3)
   - Travis CI integration. Automated testing and releasing. (#5)
+  fixed:
+  - Adjust mapping from and to Release Notes and Release instances, toJSON and fromJSON methods.
 
 - version: 0.1.0
   date: 2017-07-07T18:22:00Z
