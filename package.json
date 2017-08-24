@@ -30,9 +30,9 @@
     "@release-notes/schema": "^0.1.0"
   },
   "devDependencies": {
-    "@release-notes/eslint-config": "^0.1.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.6.1"
+    "@release-notes/eslint-config": "^1.0.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-import": "^2.7.0"
   },
   "publishConfig": {
     "access": "public"
