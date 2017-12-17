@@ -11,6 +11,7 @@
     "notes",
     "changelog"
   ],
+  "homepage": "https://release-notes.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/release-notes-node/issues"
