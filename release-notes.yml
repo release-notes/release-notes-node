@@ -9,6 +9,7 @@ releases:
   date: 2017-12-17T21:36:09Z
   added:
   - Introduce `ReleaseNotesWriter.dumpReleaseNotes` for converting release notes into yaml.
+  - Add support for modification tags.
   - Add badges 🎉
   - Add code of conduct and contribution guidelines.
   changed:
