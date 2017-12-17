@@ -2,8 +2,18 @@ title: Release Notes of Release Notes Node
 description: >
   Release-notes-node is the Node.js reference implementation of the release notes specification -
   an easy to use, human readable and machine processable schema for release notes.
+  https://release-notes.com
 
 releases:
+- version: 0.3.0
+  date: 2017-12-17T21:36:09Z
+  added:
+  - Introduce `ReleaseNotesWriter.dumpReleaseNotes` for converting release notes into yaml.
+  - Add support for modification tags.
+  - Add badges 🎉
+  - Add code of conduct and contribution guidelines.
+  changed:
+  - Empty fields will be ignored in `toJSON` method.
 - version: 0.2.0
   date: 2017-08-01T09:21:00Z
   added:
@@ -11,7 +21,6 @@ releases:
   - Travis CI integration. Automated testing and releasing. (#5)
   fixed:
   - Adjust mapping from and to Release Notes and Release instances, toJSON and fromJSON methods.
-
 - version: 0.1.0
   date: 2017-07-07T18:22:00Z
   title: First Release

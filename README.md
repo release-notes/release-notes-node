@@ -1,5 +1,10 @@
 # Release Notes Node
 
+[![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/release-notes-node)
+[![NPM Package](https://img.shields.io/npm/v/@release-notes/node.svg)](https://www.npmjs.com/package/@release-notes/node)
+[![Build Status](https://travis-ci.org/release-notes/release-notes-node.svg?branch=master)](https://travis-ci.org/release-notes/release-notes-node)
+[![MIT license](https://img.shields.io/github/license/release-notes/release-notes-node.svg)](LICENSE)
+
 **Title**   | Release Notes Node
 :-----------|:---------------------------
 **Specification** | [Release Notes Draft 0.2.0](https://github.com/release-notes/release-notes-spec/blob/0.2.0/README.md)
