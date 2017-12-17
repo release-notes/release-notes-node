@@ -4,7 +4,8 @@ description: >
   an easy to use, human readable and machine processable schema for release notes.
 
 releases:
-- version: Unreleased
+- version: 0.3.0
+  date: 2017-12-17T21:36:09Z
   added:
   - Introduce `ReleaseNotesWriter.dumpReleaseNotes` for converting release notes into yaml.
   - Add badges 🎉
