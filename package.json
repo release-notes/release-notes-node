@@ -1,7 +1,7 @@
 {
   "name": "@release-notes/node",
   "description": "An easy to use, human readable and machine processable schema for release notes.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
     "release notes",
@@ -11,6 +11,7 @@
     "notes",
     "changelog"
   ],
+  "homepage": "https://release-notes.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/release-notes/release-notes-node/issues"
@@ -25,14 +26,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ajv": "^5.2.2",
-    "js-yaml": "^3.9.0",
-    "@release-notes/schema": "^0.1.0"
+    "ajv": "^5.5.2",
+    "js-yaml": "^3.10.0",
+    "@release-notes/schema": "^0.2.0"
   },
   "devDependencies": {
     "@release-notes/eslint-config": "^1.0.0",
-    "eslint": "^4.5.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint": "^4.13.1",
+    "eslint-plugin-import": "^2.8.0"
   },
   "publishConfig": {
     "access": "public"
